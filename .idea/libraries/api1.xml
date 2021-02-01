@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="api1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ch02/worked_example_2/api/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ch02/worked_example_2/api/type-search-index.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
