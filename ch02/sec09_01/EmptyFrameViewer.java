@@ -1,5 +1,6 @@
 import javax.swing.*;
 
+
 public class EmptyFrameViewer
 {
    public static void main(String[] args)

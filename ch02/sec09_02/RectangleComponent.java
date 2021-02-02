@@ -7,9 +7,10 @@ import javax.swing.JComponent;
    A component that draws two rectangles.
 */
 public class RectangleComponent extends JComponent
-{  
+{
+
    public void paintComponent(Graphics g)
-   {  
+   {
       // Recover Graphics2D
       Graphics2D g2 = (Graphics2D) g;
 
