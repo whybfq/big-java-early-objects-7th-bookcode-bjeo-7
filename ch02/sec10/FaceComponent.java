@@ -4,6 +4,7 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 import javax.swing.JComponent;
 
 /*
@@ -28,7 +29,13 @@ public class FaceComponent extends JComponent
       g2.fill(eye);
 
       // Draw the mouth
-      Line2D.Double mouth = new Line2D.Double(30, 110, 80, 110);
+      // First option:
+      // Line2D.Double mouth = new Line2D.Double(30, 110, 80, 110);
+      // Second Option
+      Point2D.Double from = new Point2D.Double(30, 110);
+      Point2D.Double to = new Point2D.Double(80, 110);
+      Line2D.Double mouth = new Line2D.Double(from, to);
+
       g2.setColor(Color.RED);
       g2.draw(mouth);
 
