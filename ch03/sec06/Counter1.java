@@ -1,14 +1,14 @@
 /**
    This example demonstrates local variables.
 */
-public class Counter
+public class Counter1
 {
    private int value; // value is instance variable
 
    /**
       Advances the value of this counter by 1.
    */
-   public void click() 
+   public void click()
    {
       int updatedValue = value + 1;
          // updatedValue is a local variable
@@ -19,12 +19,12 @@ public class Counter
    /**
       Resets the value of this counter to a given value.
    */
-   public void resetTo(int newValue) 
+   public void resetTo(int newValue)
       // newValue is a parameter variable
       // newValue is initialized with the argument of a method call
    {
       value = newValue;
-         // newValue is forgotten here     
+         // newValue is forgotten here
    }
 
    /**

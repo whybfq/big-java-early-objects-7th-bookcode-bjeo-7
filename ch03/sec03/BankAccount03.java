@@ -2,14 +2,14 @@
    A bank account has a balance that can be changed by 
    deposits and withdrawals.
 */
-public class BankAccount
+public class BankAccount03
 {  
    private double balance;
 
    /**
       Constructs a bank account with a zero balance.
    */
-   public BankAccount()
+   public BankAccount03()
    {   
       balance = 0;
    }
@@ -18,7 +18,7 @@ public class BankAccount
       Constructs a bank account with a given balance.
       @param initialBalance the initial balance
    */
-   public BankAccount(double initialBalance)
+   public BankAccount03(double initialBalance)
    {   
       balance = initialBalance;
    }

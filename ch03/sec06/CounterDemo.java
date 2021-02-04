@@ -2,7 +2,7 @@ public class CounterDemo
 {
    public static void main(String[] args)
    {
-      Counter tally = new Counter();
+      Counter1 tally = new Counter1();
       tally.click();
       tally.click();
       int result = tally.getValue(); // Sets result to 2

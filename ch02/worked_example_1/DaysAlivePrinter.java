@@ -2,7 +2,7 @@ public class DaysAlivePrinter
 {
    public static void main(String[] args)
    {
-      Day jamesGoslingsBirthday = new Day(1955, 5, 19);
+      Day jamesGoslingsBirthday = new Day(1955, 10, 9);
       Day today = new Day();
       System.out.print("Today: ");
       System.out.println(today.toString());

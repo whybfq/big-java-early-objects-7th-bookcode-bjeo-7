@@ -1,7 +1,7 @@
 /**
    This class models a tally counter.
 */
-public class Counter
+public class Counter01
 {
    private int value;
 

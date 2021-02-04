@@ -5,7 +5,7 @@ public class CashRegisterTester
 {
    public static void main(String[] args)
    {
-      CashRegister register = new CashRegister();
+      CashRegister01 register = new CashRegister01();
 
       register.recordPurchase(29.50);
       register.recordPurchase(9.25);

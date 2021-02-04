@@ -1,7 +1,7 @@
 /**
    A cash register totals up sales and computes change due.
 */
-public class CashRegister
+public class CashRegister01
 {
    private double purchase;
    private double payment;
@@ -9,7 +9,7 @@ public class CashRegister
    /**
       Constructs a cash register with no money in it.
    */
-   public CashRegister()
+   public CashRegister01()
    {
       purchase = 0;
       payment = 0;

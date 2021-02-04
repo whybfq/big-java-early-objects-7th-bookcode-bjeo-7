@@ -42,6 +42,7 @@ public class FaceComponent extends JComponent
       // Draw the greeting
       g2.setColor(Color.BLUE);
       g2.drawString("Hello, World!", 5, 175);
+      g2.drawString("Message", 50, 100);
    }
 }
 
