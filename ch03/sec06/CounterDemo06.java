@@ -1,8 +1,8 @@
-public class CounterDemo
+public class CounterDemo06
 {
    public static void main(String[] args)
    {
-      Counter1 tally = new Counter1();
+      Counter06 tally = new Counter06();
       tally.click();
       tally.click();
       int result = tally.getValue(); // Sets result to 2

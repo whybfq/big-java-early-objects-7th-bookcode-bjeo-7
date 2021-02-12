@@ -1,7 +1,7 @@
 /**
    A cash register totals up sales and computes change due.
 */
-public class CashRegister
+public class CashRegister05
 {
    private double taxRate;
    private double purchase;
@@ -12,7 +12,7 @@ public class CashRegister
       Constructs a cash register with no money in it.
       @param rate the tax rate for taxable purchases
    */
-   public CashRegister(double rate)
+   public CashRegister05(double rate)
    {
       taxRate = rate;
       purchase = 0;

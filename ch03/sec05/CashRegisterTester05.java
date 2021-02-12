@@ -1,11 +1,11 @@
 /**
    A class to test the CashRegister class.
 */
-public class CashRegisterTester
+public class CashRegisterTester05
 {
    public static void main(String[] args)
    {
-      CashRegister register = new CashRegister(5);
+      CashRegister05 register = new CashRegister05(5);
          // 5% sales tax on taxable purchases
 
       register.recordTaxablePurchase(10);

@@ -1,7 +1,7 @@
 /**
    This example demonstrates local variables.
 */
-public class Counter1
+public class Counter06
 {
    private int value; // value is instance variable
 
