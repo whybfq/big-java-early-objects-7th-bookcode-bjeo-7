@@ -15,7 +15,7 @@ public class Initials
       String first = in.next();
       System.out.print("Enter your significant other's first name: ");
       String second = in.next();
-      System.out.println(first.charAt(0));
+//      System.out.println(first.charAt(0));
 
       // Compute and display the inscription
 
