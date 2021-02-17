@@ -18,7 +18,7 @@ public class DoLoop
          System.out.print("Enter a number >= 0: ");
          value = in.nextDouble();
       }
-      while (value < 0);
+      while (value < 0);  // infinite loop while value < 0
       double root = Math.sqrt(value);
       System.out.println("The square root of the number is " + root);
    }

@@ -2,7 +2,7 @@
    A class to monitor the growth of an investment that 
    accumulates interest at a fixed annual rate.
 */
-public class Investment
+public class Investment01
 {
    private double balance;
    private double rate;
@@ -14,7 +14,7 @@ public class Investment
       @param aBalance the starting balance
       @param aRate the interest rate in percent
    */
-   public Investment(double aBalance, double aRate)
+   public Investment01(double aBalance, double aRate)
    {
       balance = aBalance;
       rate = aRate;
@@ -31,9 +31,9 @@ public class Investment
       while (balance < targetBalance)
       {
          year++;   
-         double interest = balance * rate / 100;
+         double interest = balance * rate / 100; // a new interest is created in each iteration
          balance = balance + interest;
-      }
+      }  // the interest variable no longer declared here (interest is a local variable )
    }
 
    /**
