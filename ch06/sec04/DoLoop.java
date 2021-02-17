@@ -21,6 +21,13 @@ public class DoLoop
       while (value < 0);  // infinite loop while value < 0
       double root = Math.sqrt(value);
       System.out.println("The square root of the number is " + root);
+
+      // The for loop won't check whether the initialization, condition and update experssions are related
+//      double sum = 0, x = 0;
+//      for (System.out.print("Input: " ); in.hasNextDouble(); sum = sum + x)
+//      {
+//         x = in.nextDouble();
+//      }
    }
 }
 
