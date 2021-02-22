@@ -15,7 +15,7 @@ public class SentinelDemo
 
       // Process data until the sentinel is entered 
 
-      while (salary != -1)
+      while (salary != -1)  // sentinel
       {  
          salary = in.nextDouble();
          if (salary != -1) 
