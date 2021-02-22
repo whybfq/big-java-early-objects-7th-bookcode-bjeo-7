@@ -32,7 +32,7 @@ public class MonteCarlo
       */        
 
       double piEstimate = 4.0 * hits / TRIES;
-      System.out.println("Estimate for pi: " + piEstimate);
+      System.out.println("Estimate for pi: " + piEstimate);  // the result is different every time
    }
 }
 
