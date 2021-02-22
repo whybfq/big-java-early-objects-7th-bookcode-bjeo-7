@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /**
    This program simulates casting a die ten times.
 */
@@ -8,11 +10,15 @@ public class DieSimulator
       Die d = new Die(6);
       final int TRIES = 10;
       for (int i = 1; i <= TRIES; i++)
-      {  
+      {
          int n = d.cast();
          System.out.print(n + " ");
       }
       System.out.println();
+
+//      Random generator = new Random();
+//      int d = 1 + generator.nextInt(6);
+//      System.out.println(d);
    }
 }
 
